@@ -1,16 +1,21 @@
 {
-  "name": "geko-koyeb",
+  "name": "geko-server",
   "version": "1.0.0",
+  "description": "GEKO Control Server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"No test\""
   },
+  "keywords": ["server", "control"],
+  "author": "GEKO",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "ws": "^8.14.2",
-    "uuid": "^9.0.1"
+    "express": "4.18.2",
+    "ws": "8.14.2"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }
