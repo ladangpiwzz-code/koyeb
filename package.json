@@ -1,12 +1,13 @@
 {
-  "name": "geko-koyeb",
-  "version": "1.0.0",
+  "name": "geko-premium",
+  "version": "3.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "ws": "^8.14.2"
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1"
   }
 }
